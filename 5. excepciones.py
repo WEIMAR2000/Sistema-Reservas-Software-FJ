@@ -1,0 +1,2 @@
+class ErrorReserva(Exception):
+    pass
