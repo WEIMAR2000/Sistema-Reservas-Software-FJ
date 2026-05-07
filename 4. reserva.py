@@ -1,2 +1,63 @@
+from datetime import datetime
+
+
 class Reserva:
-    pass
+
+    def __init__(self, cliente, servicio, duracion):
+
+        if duracion <= 0:
+            raise ValueError("La duración debe ser mayor que cero")
+
+        self.cliente = cliente
+        self.servicio = servicio
+        self.duracion = duracion
+        self.estado = "Pendiente"
+
+
+    def confirmar(self):
+
+        try:
+            costo = self.servicio.calcular_costo()
+
+            self.estado = "Confirmada"
+
+            self.registrar_log(
+                f"Reserva confirmada para {self.cliente.get_nombre()} | Total: ${costo}"
+            )
+
+            return f"Reserva confirmada. Total a pagar: ${costo}"
+
+        except Exception as e:
+
+            self.registrar_log(f"ERROR al confirmar reserva: {str(e)}")
+
+            return "No se pudo confirmar la reserva"
+
+
+    def cancelar(self):
+
+        self.estado = "Cancelada"
+
+        self.registrar_log(
+            f"Reserva cancelada para {self.cliente.get_nombre()}"
+        )
+
+        return "Reserva cancelada correctamente"
+
+
+    def mostrar_reserva(self):
+
+        return (
+            f"Cliente: {self.cliente.get_nombre()}\n"
+            f"Servicio: {self.servicio.descripcion()}\n"
+            f"Estado: {self.estado}"
+        )
+
+
+    def registrar_log(self, mensaje):
+
+        with open("logs.txt", "a", encoding="utf-8") as archivo:
+
+            fecha = datetime.now()
+
+            archivo.write(f"[{fecha}] {mensaje}\n")
