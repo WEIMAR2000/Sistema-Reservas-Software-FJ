@@ -3,8 +3,8 @@ Sistema de gestión de clientes, servicios y reservas en Python Marca:
 
 # Integrantes
 - Weimar Torres Rojas
-- Por definir
-- Por definir
+- Vanessa Alexandra Ariza Orjuela
+- Jean Carlo Pena Lopez	
 - Por definir
 - Por definir
 
