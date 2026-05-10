@@ -52,6 +52,14 @@ class Reserva:
             f"Servicio: {self.servicio.descripcion()}\n"
             f"Estado: {self.estado}"
         )
+        
+    def calcular_iva(self, tasa=0.19):
+        try:
+            costo_base = self.servicio.calcular_costo()
+            return costo_base * tasa
+        except Exception as e:
+            self.registrar_log(f"Error al calcular IVA: {e}")
+            return 0  
 
 
     def registrar_log(self, mensaje):
@@ -61,3 +69,4 @@ class Reserva:
             fecha = datetime.now()
 
             archivo.write(f"[{fecha}] {mensaje}\n")
+            

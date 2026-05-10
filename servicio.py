@@ -68,3 +68,5 @@ class AsesoriaEspecializada(Servicio):
 
     def descripcion(self):
         return f"Asesoría especializada por {self.horas} horas"
+    
+    
