@@ -1,1 +1,39 @@
 
+[2026-05-09 22:12:01.306165] Reserva confirmada para Juan Pérez | Total: $100000
+El nombre no puede estar vacío
+La cédula debe contener solo números
+Correo electrónico inválido
+[2026-05-09 22:12:01.307989] Reserva confirmada para Laura | Total: $150000
+[2026-05-09 22:12:01.308268] Reserva confirmada para Carlos | Total: $240000
+La duración debe ser mayor que cero
+[2026-05-09 22:12:01.308890] Reserva cancelada para Miguel
+[2026-05-09 22:12:01.309282] Reserva confirmada para Andrés | Total: $300000
+[2026-05-09 22:12:44.957103] Reserva confirmada para Juan Pérez | Total: $100000
+El nombre no puede estar vacío
+La cédula debe contener solo números
+Correo electrónico inválido
+[2026-05-09 22:12:44.959271] Reserva confirmada para Laura | Total: $150000
+[2026-05-09 22:12:44.959912] Reserva confirmada para Carlos | Total: $240000
+La duración debe ser mayor que cero
+[2026-05-09 22:12:44.960703] Reserva cancelada para Miguel
+[2026-05-09 22:12:44.961224] Reserva confirmada para Andrés | Total: $300000
+[2026-05-09 22:17:17.929125] Reserva confirmada para Juan Pérez | Total: $100000
+'Reserva' object has no attribute 'calcular_iva'
+El nombre no puede estar vacío
+La cédula debe contener solo números
+Correo electrónico inválido
+[2026-05-09 22:17:17.931332] Reserva confirmada para Laura | Total: $150000
+[2026-05-09 22:17:17.931774] Reserva confirmada para Carlos | Total: $240000
+La duración debe ser mayor que cero
+[2026-05-09 22:17:17.932548] Reserva cancelada para Miguel
+[2026-05-09 22:17:17.933077] Reserva confirmada para Andrés | Total: $300000
+[2026-05-09 22:17:38.794015] Reserva confirmada para Juan Pérez | Total: $100000
+'Reserva' object has no attribute 'calcular_iva'
+El nombre no puede estar vacío
+La cédula debe contener solo números
+Correo electrónico inválido
+[2026-05-09 22:17:38.797670] Reserva confirmada para Laura | Total: $150000
+[2026-05-09 22:17:38.798186] Reserva confirmada para Carlos | Total: $240000
+La duración debe ser mayor que cero
+[2026-05-09 22:17:38.799377] Reserva cancelada para Miguel
+[2026-05-09 22:17:38.800045] Reserva confirmada para Andrés | Total: $300000
