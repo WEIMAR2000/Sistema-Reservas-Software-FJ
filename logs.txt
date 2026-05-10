@@ -37,3 +37,12 @@ Correo electrónico inválido
 La duración debe ser mayor que cero
 [2026-05-09 22:17:38.799377] Reserva cancelada para Miguel
 [2026-05-09 22:17:38.800045] Reserva confirmada para Andrés | Total: $300000
+[2026-05-09 23:32:02.771701] Reserva confirmada para Juan Pérez | Total: $100000
+El nombre no puede estar vacío
+La cédula debe contener solo números
+Correo electrónico inválido
+[2026-05-09 23:32:02.775891] Reserva confirmada para Laura | Total: $150000
+[2026-05-09 23:32:02.776361] Reserva confirmada para Carlos | Total: $240000
+La duración debe ser mayor que cero
+[2026-05-09 23:32:02.777522] Reserva cancelada para Miguel
+[2026-05-09 23:32:02.778317] Reserva confirmada para Andrés | Total: $300000
