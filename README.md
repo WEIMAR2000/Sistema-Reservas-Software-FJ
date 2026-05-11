@@ -4,9 +4,6 @@ Sistema de gestión de clientes, servicios y reservas en Python Marca:
 # Integrantes
 - Weimar Torres Rojas
 - Vanessa Alexandra Ariza Orjuela
-- Jean Carlo Pena Lopez	
-- Por definir
-- Por definir
 
 # Descripción
 Sistema orientado a objetos para la gestión de clientes, servicios y reservas sin uso de base de datos.
