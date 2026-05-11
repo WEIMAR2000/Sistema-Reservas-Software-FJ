@@ -25,6 +25,9 @@ try:
     reserva1 = Reserva(cliente1, servicio1, 2)
 
     print(reserva1.confirmar())
+    # --- INSERTAR AQUÍ ---
+    print(f"IVA: {reserva1.calcular_iva()}")
+    
 
 except Exception as e:
 
