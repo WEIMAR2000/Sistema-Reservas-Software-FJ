@@ -1,1 +1,10 @@
 
+[2026-05-11 18:20:52.833060] Reserva confirmada para Juan Pérez | Total: $100000
+El nombre no puede estar vacío
+La cédula debe contener solo números
+Correo electrónico inválido
+[2026-05-11 18:20:52.835140] Reserva confirmada para Laura | Total: $150000
+[2026-05-11 18:20:52.835665] Reserva confirmada para Carlos | Total: $240000
+La duración debe ser mayor que cero
+[2026-05-11 18:20:52.836806] Reserva cancelada para Miguel
+[2026-05-11 18:20:52.837407] Reserva confirmada para Andrés | Total: $300000
